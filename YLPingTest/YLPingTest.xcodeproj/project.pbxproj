@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1B8216212130DC005F21A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1B8215212130DC005F21A9 /* AppDelegate.m */; };
+		DB1B8219212130DC005F21A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1B8218212130DC005F21A9 /* ViewController.m */; };
+		DB1B821C212130DC005F21A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1B821A212130DC005F21A9 /* Main.storyboard */; };
+		DB1B821E212130DD005F21A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1B821D212130DD005F21A9 /* Assets.xcassets */; };
+		DB1B8221212130DD005F21A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1B821F212130DD005F21A9 /* LaunchScreen.storyboard */; };
+		DB1B8224212130DD005F21A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1B8223212130DD005F21A9 /* main.m */; };
+		DB1B822D21213104005F21A9 /* YLPingServer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1B822C21213104005F21A9 /* YLPingServer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB1B8211212130DC005F21A9 /* YLPingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLPingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1B8214212130DC005F21A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB1B8215212130DC005F21A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB1B8217212130DC005F21A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB1B8218212130DC005F21A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB1B821B212130DC005F21A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB1B821D212130DD005F21A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1B8220212130DD005F21A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB1B8222212130DD005F21A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1B8223212130DD005F21A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB1B822B21213104005F21A9 /* YLPingServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLPingServer.h; sourceTree = "<group>"; };
+		DB1B822C21213104005F21A9 /* YLPingServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPingServer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1B820E212130DC005F21A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1B8208212130DC005F21A9 = {
+			isa = PBXGroup;
+			children = (
+				DB1B8213212130DC005F21A9 /* YLPingTest */,
+				DB1B8212212130DC005F21A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1B8212212130DC005F21A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1B8211212130DC005F21A9 /* YLPingTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1B8213212130DC005F21A9 /* YLPingTest */ = {
+			isa = PBXGroup;
+			children = (
+				DB1B822A212130EE005F21A9 /* Test */,
+				DB1B8214212130DC005F21A9 /* AppDelegate.h */,
+				DB1B8215212130DC005F21A9 /* AppDelegate.m */,
+				DB1B8217212130DC005F21A9 /* ViewController.h */,
+				DB1B8218212130DC005F21A9 /* ViewController.m */,
+				DB1B821A212130DC005F21A9 /* Main.storyboard */,
+				DB1B821D212130DD005F21A9 /* Assets.xcassets */,
+				DB1B821F212130DD005F21A9 /* LaunchScreen.storyboard */,
+				DB1B8222212130DD005F21A9 /* Info.plist */,
+				DB1B8223212130DD005F21A9 /* main.m */,
+			);
+			path = YLPingTest;
+			sourceTree = "<group>";
+		};
+		DB1B822A212130EE005F21A9 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				DB1B822B21213104005F21A9 /* YLPingServer.h */,
+				DB1B822C21213104005F21A9 /* YLPingServer.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1B8210212130DC005F21A9 /* YLPingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1B8227212130DD005F21A9 /* Build configuration list for PBXNativeTarget "YLPingTest" */;
+			buildPhases = (
+				DB1B820D212130DC005F21A9 /* Sources */,
+				DB1B820E212130DC005F21A9 /* Frameworks */,
+				DB1B820F212130DC005F21A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLPingTest;
+			productName = YLPingTest;
+			productReference = DB1B8211212130DC005F21A9 /* YLPingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1B8209212130DC005F21A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mango;
+				TargetAttributes = {
+					DB1B8210212130DC005F21A9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DB1B820C212130DC005F21A9 /* Build configuration list for PBXProject "YLPingTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1B8208212130DC005F21A9;
+			productRefGroup = DB1B8212212130DC005F21A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1B8210212130DC005F21A9 /* YLPingTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1B820F212130DC005F21A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1B8221212130DD005F21A9 /* LaunchScreen.storyboard in Resources */,
+				DB1B821E212130DD005F21A9 /* Assets.xcassets in Resources */,
+				DB1B821C212130DC005F21A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1B820D212130DC005F21A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1B8219212130DC005F21A9 /* ViewController.m in Sources */,
+				DB1B8224212130DD005F21A9 /* main.m in Sources */,
+				DB1B8216212130DC005F21A9 /* AppDelegate.m in Sources */,
+				DB1B822D21213104005F21A9 /* YLPingServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB1B821A212130DC005F21A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1B821B212130DC005F21A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1B821F212130DD005F21A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1B8220212130DD005F21A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1B8225212130DD005F21A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB1B8226212130DD005F21A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1B8228212130DD005F21A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YLPingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youqu.www.YLPingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB1B8229212130DD005F21A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YLPingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youqu.www.YLPingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1B820C212130DC005F21A9 /* Build configuration list for PBXProject "YLPingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1B8225212130DD005F21A9 /* Debug */,
+				DB1B8226212130DD005F21A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1B8227212130DD005F21A9 /* Build configuration list for PBXNativeTarget "YLPingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1B8228212130DD005F21A9 /* Debug */,
+				DB1B8229212130DD005F21A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1B8209212130DC005F21A9 /* Project object */;
+}
